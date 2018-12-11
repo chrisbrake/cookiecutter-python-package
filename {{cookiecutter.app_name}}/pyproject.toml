@@ -1,0 +1,23 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.scripts]
+{{cookiecutter.app_name}} = "{{cookiecutter.app_name}}:main"
+
+
+[tool.flit.metadata]
+module = "{{cookiecutter.app_name}}"
+author = "{{cookiecutter.human_name}}"
+author-email = "{{cookiecutter.human_email}}"
+requires = ["python_version > '2.7'"]
+requires-python="3"
+description-file = 'README.rst'
+classifiers=[
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python :: 3",
+]
+
+[tool.flit.metadata.requires-extra]
+test = [ "flake8", "pytest", "pytest-cov"]
+doc = ["sphinx"]
