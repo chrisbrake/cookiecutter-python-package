@@ -10,8 +10,6 @@ build-backend = "flit.buildapi"
 module = "{{cookiecutter.app_name}}"
 author = "{{cookiecutter.human_name}}"
 author-email = "{{cookiecutter.human_email}}"
-requires = ["python_version > '2.7'"]
-requires-python="3"
 description-file = 'README.rst'
 classifiers=[
     "License :: OSI Approved :: BSD License",
