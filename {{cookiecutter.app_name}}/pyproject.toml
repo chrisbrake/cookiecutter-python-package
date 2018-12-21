@@ -8,8 +8,8 @@ build-backend = "flit.buildapi"
 
 [tool.flit.metadata]
 module = "{{cookiecutter.app_name}}"
-author = "{{cookiecutter.human_name}}"
-author-email = "{{cookiecutter.human_email}}"
+author = "{{cookiecutter.author}}"
+author-email = "{{cookiecutter.author_email}}"
 home-page = "{{cookiecutter.home_page}}"
 description-file = 'README.rst'
 classifiers=[

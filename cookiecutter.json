@@ -1,6 +1,6 @@
 {
-  "human_name": "Chris Brake",
-  "human_email": "a@b.c",
+  "author": "Chris Brake",
+  "author_email": "chris.brake@gmail.com",
   "app_name": "app",
   "app_description": "My App",
   "home_page": "https://example.com"
