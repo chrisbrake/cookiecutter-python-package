@@ -2,5 +2,6 @@
   "human_name": "Chris Brake",
   "human_email": "a@b.c",
   "app_name": "app",
-  "app_description": "My App"
+  "app_description": "My App",
+  "home_page": "https://example.com"
 }
